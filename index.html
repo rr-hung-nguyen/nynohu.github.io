@@ -1,62 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--CSS Styles -->
-    <link rel="stylesheet" href="assets/css/styles.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Favicons -->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="assets/icons/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="assets/icons/favicon-32x32.png"
-    />
+  <!--CSS Styles -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
 
-    <!-- Animate CSS CDN -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <title>Jane Doe | Web Developer</title>
-  </head>
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png" />
 
-  <body>
-    <!-- Navbar -->
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>Hung Nguyen | Mobile Application Developer</title>
+</head>
 
-    <!-- Hero Section -->
+<body>
+  <!-- Navbar -->
+  <nav>
+    <h1>Hung Nguyen</h1>
+    <ul class="navigation">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button class="burger-menu" id="burger-menu">
+      <ion-icon class="bars" name="menu-outline"></ion-icon>
+    </button>
+  </nav>
 
-    <!-- More about -->
+  <!-- Hero Section -->
 
-    <!-- Skills section -->
+  
+  <!-- Projects section -->
+  
+  <!-- Contact section -->
+  
+  <!-- Social accounts - Fixed to the right -->
+  
+  <!-- Footer section -->
+  
+  <!-- Website scripts -->
+  <script src="assets/js/app.js"></script>
+  
+  <!-- Ion icons scripts -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
 
-    <!-- Projects section -->
-
-    <!-- Contact section -->
-
-    <!-- Social accounts - Fixed to the right -->
-
-    <!-- Footer section -->
-
-    <!-- Website scripts -->
-    <script src="assets/js/app.js"></script>
-
-    <!-- Ion icons scripts -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-  </body>
 </html>
+
+<section class="hero" id="about">
+  <img src="assets/images/wfh_1.svg" alt="hung-nguyen" loading="lazy" class="hero-img" />
+  <div class="bio animate__animated animate__shakeX">
+    <h2 class="bio-title">About Me</h2>
+    <p class="bio-text">
+      I am currently the Software Enginner,
+      mainly developing mobile native application for both Android and iOS.
+      I do some server-side jobs using Spring-Boot framework as well.
+    </p>
+  </div>
+</section>
+
+<!-- More about -->
+<section class="more-about">
+  <h2>More About Me</h2>
+  <p>
+    I have 11 years of experiences in games and mobile development.
+  </p>
+  <p>
+    Almost of my projects are for B2C project.
+    I have about 3 years of developing games and apps using Unity,
+    over 6 years of iOS native app developing experiences (both Objective-C and Swift),
+    about 3 years of Android native app developing experiences (kotlin)
+  </p>
+</section>
+
+<!-- Skills section -->
+<section class="skills" id="skills">
+  <h2 class="skill-header">My Top Skills</h2>
+
+  <div class="skills-wrapper">
+    <div class="first-set animate__animated animate__pulse">
+      <img src="assets/icons/swift-original.svg" alt="" loading="lazy" class="icon icon-card">
+      <img src="assets/icons/csharp-original.svg" alt="" loading="lazy" class="icon icon-card">
+      <img src="assets/icons/kotlin-original.svg" alt="" loading="lazy" class="icon icon-card">
+      <img src="assets/icons/html5-original.svg" alt="" loading="lazy" class="icon icon-card">
+      <img src="assets/icons/css3-original.svg" alt="" loading="lazy" class="icon icon-card">
+      <img src="assets/icons/markdown-original.svg" alt="" loading="lazy" class="icon icon-card">
+      <img src="assets/icons/sqlite-original.svg" alt="" loading="lazy" class="icon icon-card">
+      <img src="assets/icons/icons8-postgresql.svg" alt="" loading="lazy" class="icon icon-card">
+      <img src="assets/icons/icons8-microsoft-sql-server.svg" alt="" loading="lazy" class="icon icon-card">
+      <img src="assets/icons/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card">
+
+    </div>
+  </div>
+</section>

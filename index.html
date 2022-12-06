@@ -34,16 +34,16 @@
 
   <!-- Hero Section -->
 
-  
+
   <!-- Contact section -->
-  
+
   <!-- Social accounts - Fixed to the right -->
-  
+
   <!-- Footer section -->
-  
+
   <!-- Website scripts -->
   <script src="assets/js/app.js"></script>
-  
+
   <!-- Ion icons scripts -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
@@ -80,7 +80,7 @@
 <!-- Skills section -->
 <section class="skills" id="skills">
   <h2 class="skill-header">My Top Skills</h2>
-  
+
   <div class="skills-wrapper">
     <div class="first-set animate__animated animate__pulse">
       <img src="assets/icons/swift-original.svg" alt="" loading="lazy" class="icon icon-card">
@@ -93,7 +93,7 @@
       <img src="assets/icons/icons8-postgresql.svg" alt="" loading="lazy" class="icon icon-card">
       <img src="assets/icons/icons8-microsoft-sql-server.svg" alt="" loading="lazy" class="icon icon-card">
       <img src="assets/icons/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card">
-      
+
     </div>
   </div>
 </section>
@@ -102,6 +102,71 @@
 <section class="projects" id="projects">
   <h2 class="projects-title">Some of my Recent Porojects</h2>
   <div class="project-container project-card">
+    <img src="assets/images/railway.svg" alt="expense-tracker" loading="lazy" class="project-pic" />
+    <h3 class="project-title">JR東日本アプリ</h3>
+    <p class="project-details">
+      [Service Information]
+      You can check the "operation information" of major private railways and subways in the Tokyo metropolitan area as
+      well as the JR East line.
+      It also supports "notification of operation information"!
 
-  </div> 
+      【Transit】
+      It is possible to search routes for trains, buses, planes, share cycles, etc. all over Japan.
+      You can also use it instead of the timetable!
+
+      [Train running position]
+      You can check where the train is running now.
+    </p>
+    <p><a href="https://apps.apple.com/jp/app/jr東日本アプリ/id820004378" target="_blank" class="project-link">Download From
+        AppStore</a></p>
+    <p><a href="https://play.google.com/store/apps/details?id=jp.co.jreast&pli=1" target="_blank"
+        class="project-link">Download From PlayStore</a></p>
+  </div>
 </section>
+
+<section class="contact" id="contact">
+  <h2>Let's get in touch!</h2>
+  <h3>I enjoy meeting interesting people, having great conversations, and discussing interesting ideas. If you feel the
+    same
+    then don't hesitate to drop me a message.</h3>
+  <div class="contact-form-container">
+    <div class="contact-form">
+      <form action="https://" method="post">
+        <div class="form-control">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="input-field" required />
+        </div>
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="sender-email" placeholder="Enter Your Email" class="input-field"
+            required />
+        </div>
+        <div class="form-control">
+          <label for="message">Message</label>
+          <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message" class="input-field"
+            required></textarea>
+        </div>
+        <input type="submit" value="Submit" id="submit-btn" class="submit-btn" />
+      </form>
+    </div>
+  </div>
+
+  <div class="socials">
+    <a href="https://twitter.com/nynohu" target="_blank"><img src="assets/icons/twitter-original.svg" alt="Twitter" loading="lazy"
+        class="socicon" /></a>
+    <a href="https://www.instagram.com/nynohu/" target="_blank"><img src="assets/icons/instagram.svg" alt="Instagram" loading="lazy"
+        class="socicon" /></a>
+    <a href="#" target="_blank"><img src="assets/icons/linkedin-original.svg" alt="Linkedin" loading="lazy"
+        class="socicon" /></a>
+    <a href="http://github.com/nynohu/" target="_blank"><img src="assets/icons/github-original.svg" alt="Github" class="socicon" /></a>
+</section>
+
+<footer>
+  <p class="copy">&copy; Copyright 2022</p>
+  <p class="copy">
+    Built with &#x2661; by
+    <a href="https://twitter.com/nynohu" target="_blank">Hung Nguyen (nynohu)</a>
+  </p>
+</footer>
+
+<i class="scroll-up" id="scroll-up"><img src="assets/icons/arrow-upward.svg" class="socicon up-arrow" alt="scroll-up" />

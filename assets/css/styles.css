@@ -231,6 +231,12 @@ nav ul li {
   margin-bottom: var(--bottom-margin-2);
 }
 
+.contact h3 {
+  text-size-adjust: center;
+  margin: 0 auto;
+  padding: 0.938rem;
+}
+
 .contact-form-container {
   max-width: 40.75rem;
   margin: 0 auto;
@@ -409,6 +415,11 @@ footer {
 
   .project-container {
     width: 20.875rem;
+  }
+
+  .contact h3 {
+    text-align: center;
+    max-width: 25rem;
   }
 
   .contact-form-container {
